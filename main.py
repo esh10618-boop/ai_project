@@ -4,3 +4,7 @@ a=st.text_input('이름을 입력하세요')
 b=st.selectbox('좋아하는 음식을 선택하세요!',['스팸마요덮밥','짜파게티','참치마요김밥'])
 if st.buttonn('인사말 생성'):
   st.write(a+'님, 안녕하세요!')
+st.info(b+'를 좋아하시는군요!')
+st.warning('저도 좋아해요!')
+st.error('반가워요!')
+st.balloons()
