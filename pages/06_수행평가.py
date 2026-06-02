@@ -1,6 +1,5 @@
 import urllib.parse
 
-# 결과 출력
 st.subheader("🔎 검색 결과")
 
 if filtered_df.empty:
@@ -26,7 +25,7 @@ else:
         with st.expander(f"🏨 {hotel_name}"):
 
             st.markdown(
-                f"📸 **[호텔 사진 보기]({image_search_url})**"
+                f"📸 [호텔 사진 보기]({image_search_url})"
             )
 
             st.write(f"📍 주소 : {address}")
